@@ -1,38 +1,78 @@
-.App {
+.page-name {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar a {
   color: white;
+  font-size: 17px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn.btn-outline-success {
+  color: white;
+  border-color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-name {
+  font-size: 56px;
+  margin: 25px;
+}
+.home-image {
+  padding: 10px;
+  width: 100%;
+  max-width: 501px;
+}
+.trending-name {
+  margin: 20px;
+}
+.page-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+}
+.recipe-name {
+  padding: 0 0 10px 0;
+  border-bottom: #607d8b 2px solid;
+  margin-top: 20px;
+}
+.fa.fa-clock-o {
+  padding-right: 5px;
+}
+.time-pro {
+  padding-right: 20px;
+}
+.recipe-image {
+  max-width: 759px;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 15px 5px;
+}
+.number-ingredients {
+  padding-left: 10px;
+}
+.number-ingredients li {
+  list-style: none;
+  padding-bottom: 6px;
+  padding-top: 4px;
+}
+.recipe-ingredients h2 {
+  padding: 15px 5px;
+}
+.nutrition-table td:nth-child(2),
+.nutrition-table th:nth-child(2) {
+  text-align: right;
+}
+.nutrition-table h2 {
+  padding: 15px 5px;
+}
+.nutrition-table table {
+  max-width: 400px;
+}
+.row.row-cols-1 .card-body {
+  padding: 0px 0px 0px 5px;
+  color: black;
+}
+img.card-img-top {
+  height: 232px;
+  background: gray;
 }
