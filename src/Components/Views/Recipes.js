@@ -15,7 +15,7 @@ export class Recipes extends Component {
           return {
             image: item.image,
             title: item.name,
-            url: "recipe/" + item.id
+            url: "#/recipe/" + item.id
           };
         });
         this.setState({
